@@ -10,5 +10,14 @@ import { Component } from "@angular/core";
 export class Navbar {
     linkMenu = [
         'home', 'menu', 'lavora con noi', 'dove siamo'
-    ]
+    ];
+    isPizza = true;
+    tamerCit = '';
+
+    TamerCit() {
+        this.tamerCit = "Perche' se poi Robertona cade si la sbuccia la figa";
+    }
+    Hide(){
+        this.tamerCit = '';
+    }
 }

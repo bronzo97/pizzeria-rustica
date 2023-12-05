@@ -3,4 +3,19 @@
     @for (link of linkMenu; track linkMenu) {
         <li>{{ link }}</li>
     }
+
+    @if (isPizza) {
+        <p>This is Bissa</p>
+    }
+    @else {
+        <p>This is also Bissa</p>
+    }
+    Tamer, perche' non compri un motorino per fare le consegne?
+    <p> {{ tamerCit }}</p>
+    @if (!tamerCit) {
+        <button (click)="TamerCit()">Cit.</button>
+    } @else {
+        <button (click)="Hide()">Nascondi</button>
+    }
+    
 </ul>
