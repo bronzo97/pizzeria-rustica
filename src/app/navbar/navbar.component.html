@@ -1,26 +1,23 @@
-<h1>Rustica</h1>
-
+<nav>
+    <h1>Rustica</h1>
     <a class="button" routerLink="/home">Home</a>
     <a class="button" routerLink="/work-with-us">Work with us!</a>
-
-<ul>
-   
-    @for (link of linkMenu; track linkMenu) {
-        <li>{{ link }}</li>
-    }
-
-    @if (isPizza) {
-        <p>This is Bissa</p>
-    }
-    @else {
-        <p>This is also Bissa</p>
-    }
-    Tamer, perche' non compri un motorino per fare le consegne?
-    <p> {{ tamerCit }}</p>
-    @if (!tamerCit) {
-        <button (click)="TamerCit()">Cit.</button>
-    } @else {
-        <button (click)="Hide()">Nascondi</button>
-    }
-    
-</ul>
+    <ul>
+        @for (link of linkMenu; track linkMenu) {
+            <li>{{ link }}</li>
+        }
+        @if (isPizza) {
+            <p>This is Bissa</p>
+        }
+        @else {
+            <p>This is also Bissa</p>
+        }
+        Tamer, perche' non compri un motorino per fare le consegne?
+        <p> {{ tamerCit }}</p>
+        @if (!tamerCit) {
+            <button (click)="TamerCit()">Cit.</button>
+        } @else {
+            <button (click)="Hide()">Nascondi</button>
+        }
+    </ul>
+</nav>

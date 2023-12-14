@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, Navbar, Footer, RouterOutlet],
+  imports: [CommonModule, Navbar, Footer, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
