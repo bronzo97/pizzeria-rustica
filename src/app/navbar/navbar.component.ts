@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { RouterLink } from '@angular/router';
 
+
 @Component({
     standalone: true,
     selector: 'app-navbar',
@@ -13,8 +14,11 @@ export class Navbar {
     linkMenu = [
         'home', 'menu', 'lavora con noi', 'dove siamo'
     ];
+
     isPizza = true;
     tamerCit = '';
+    hidden:string = 'hidden';
+    ariaExpanded:boolean = false;
 
     TamerCit() {
         this.tamerCit = "Perche' se poi Robertona cade si la sbuccia la figa";
@@ -22,4 +26,19 @@ export class Navbar {
     Hide(){
         this.tamerCit = '';
     }
+    openHamburger() {
+        if (this.hidden != '') {
+            this.hidden = '';
+        } else {
+            this.hidden = 'hidden';
+        }
+        
+        // this.ariaExpanded = true;
+    }
+        
+    closeHamburger() {
+        this.hidden = 'hidden';
+        // this.ariaExpanded = false;
+    }
+
 }
