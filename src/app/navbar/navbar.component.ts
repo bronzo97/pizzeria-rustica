@@ -17,8 +17,7 @@ export class Navbar {
 
     isPizza = true;
     tamerCit = '';
-    hidden:string = 'hidden';
-    ariaExpanded:boolean = false;
+
 
     TamerCit() {
         this.tamerCit = "Perche' se poi Robertona cade si la sbuccia la figa";
@@ -26,19 +25,20 @@ export class Navbar {
     Hide(){
         this.tamerCit = '';
     }
+
+    // Open and close the hamburger menu on the responsive navbar
+
+    hidden:string = 'hidden';
+    
     openHamburger() {
         if (this.hidden != '') {
             this.hidden = '';
         } else {
             this.hidden = 'hidden';
         }
-        
-        // this.ariaExpanded = true;
     }
-        
     closeHamburger() {
         this.hidden = 'hidden';
-        // this.ariaExpanded = false;
     }
 
 }
