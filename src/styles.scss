@@ -1,8 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
 * {
-    background-color: #1a1a1a;
-    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+/* You can add global styles to this file, and also import other style files */
+
 
 @tailwind base;
 @tailwind components;
