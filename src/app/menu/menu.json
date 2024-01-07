@@ -1,0 +1,249 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Marinara",
+            "ingredientes": "Pomodoro, aglio, olio, origano",
+            "price": "€ 3,00"
+        },
+        {
+            "id": 2,
+            "name": "Margherita",
+            "ingredientes": "Pomodoro, mozzarella",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 3,
+            "name": "Napoli",
+            "ingredientes": "Pomodoro, mozzarella, acciughe, origano",
+            "price": "€ 4,50"
+        },
+        {
+            "id": 4,
+            "name": "Romana",
+            "ingredientes": "Pomodoro, mozzarella, acciughe, origano, capperi",
+            "price": "€ 5,00"
+        },
+        {
+            "id": 5,
+            "name": "Pugliese",
+            "ingredientes": "Pomodoro, mozzarella, cipolle",
+            "price": "€ 4,50"
+        },
+        {
+            "id": 6,
+            "name": "Speck",
+            "ingredientes": "Pomodoro, mozzarella, speck",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 7,
+            "name": "Crudo",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto crudo",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 8,
+            "name": "Prosciutto",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto cotto",
+            "price": "€ 4,50"
+        },
+        {
+            "id": 9,
+            "name": "Funghi",
+            "ingredientes": "Pomodoro, mozzarella, funghi",
+            "price": "€ 4,50"
+        },
+        {
+            "id": 10,
+            "name": "Prosciutto e funghi",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto coto, funghi",
+            "price": "€ 5,00"
+        },
+        {
+            "id": 11,
+            "name": "Capricciosa",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 12,
+            "name": "Quattro stagioni",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto cotto, fungi, carciofi, olive",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 13,
+            "name": "Wurstel",
+            "ingredientes": "Pomodoro, mozzarella, wurstel",
+            "price": "€ 4,50"
+        },
+        {
+            "id": 14,
+            "name": "Salsiccia",
+            "ingredientes": "Pomodoro, mozarella, salsiccia",
+            "price": "€ 5,00"
+        },        
+        {
+            "id": 15,
+            "name": "Carciofi",
+            "ingredientes": "Pomodoro, mozzarella, carciofi",
+            "price": "€ 5,00"
+        },
+        {
+            "id": 16,
+            "name": "Diavola",
+            "ingredientes": "Pomodoro, mozzarella, salame piccante",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 17,
+            "name": "Pazza",
+            "ingredientes": "Pomodoro, mozzarella, radicchio, scamorza, funghi, pancetta",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 18,
+            "name": "Bufalina",
+            "ingredientes": "Pomodoro, mozzarella di bufala",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 19,
+            "name": "Gamberetti",
+            "ingredientes": "Pomodoro, mozzarella, gamberetti",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 20,
+            "name": "Verdure grigliate",
+            "ingredientes": "Pomodoro, mozzarella, peperoni, melanzane, zucchine",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 21,
+            "name": "Calamari",
+            "ingredientes": "Pomodoro, mozzarella, calamari",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 22,
+            "name": "Porcini",
+            "ingredientes": "Pomodoro, mozzarella, funghi porcini",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 23,
+            "name": "Crudo e panna",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto crudo, panna",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 24,
+            "name": "Tonno e cipolle",
+            "ingredientes": "Pomodoro, mozzarella, tonno, cipolle",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 25,
+            "name": "Quattro formaggi",
+            "ingredientes": "Pomodoro, mozzarella, gorgonzola, emmenthal, grana",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 26,
+            "name": "Tirolese",
+            "ingredientes": "Pomodoro, mozzarella, funghi, speck",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 27,
+            "name": "Pizza della casa",
+            "ingredientes": "Pomodoro, mozzarella, gamberetti, salmone, rucola",
+            "price": "€ 7,00"
+        },
+        {
+            "id": 28,
+            "name": "Valtellina",
+            "ingredientes": "Pomodoro, mozzarella, bresaola, rucola, grana",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 29,
+            "name": "Raggio di sole",
+            "ingredientes": "Pomodoro, mozzarella, asparagi, grana, uovo",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 30,
+            "name": "Occhio di bue",
+            "ingredientes": "Pomodoro, prosciutto cotto, grana, uovo",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 31,
+            "name": "Bomba",
+            "ingredientes": "Pomodoro, mozzarella, gorgonzola, salame piccante, cipolle",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 32,
+            "name": "Saporita",
+            "ingredientes": "Pomodoro, mozzarella, gorgonzola, salame piccante, origano",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 33,
+            "name": "Montanara",
+            "ingredientes": "Pomodoro, mozzarella, funghi porcini, salsiccia",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 34,
+            "name": "Braccio di ferro",
+            "ingredientes": "Podomoro, mozzarella, ricotta, spinaci",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 35,
+            "name": "Simpatica",
+            "ingredientes": "Pomodoro, mozzarella, wurstel, patatine",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 36,
+            "name": "Turbo",
+            "ingredientes": "Pomodoro, mozzarella, capricciosa, salame piccante, cipolle, olive",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 37,
+            "name": "Valdostana",
+            "ingredientes": "Pomodoro, mozzarella, taleggio, prosciutto cotto",
+            "price": "€ 6,50"
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    ]
+}
