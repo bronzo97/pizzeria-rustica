@@ -2,248 +2,685 @@
     "menu": [
         {
             "id": 1,
+            "type": "ordinary-pizza",
             "name": "Marinara",
             "ingredientes": "Pomodoro, aglio, olio, origano",
             "price": "€ 3,00"
         },
         {
             "id": 2,
+            "type": "ordinary-pizza",
             "name": "Margherita",
             "ingredientes": "Pomodoro, mozzarella",
             "price": "€ 4,00"
         },
         {
             "id": 3,
+            "type": "ordinary-pizza",
             "name": "Napoli",
             "ingredientes": "Pomodoro, mozzarella, acciughe, origano",
             "price": "€ 4,50"
         },
         {
             "id": 4,
+            "type": "ordinary-pizza",
             "name": "Romana",
             "ingredientes": "Pomodoro, mozzarella, acciughe, origano, capperi",
             "price": "€ 5,00"
         },
         {
             "id": 5,
+            "type": "ordinary-pizza",
             "name": "Pugliese",
             "ingredientes": "Pomodoro, mozzarella, cipolle",
             "price": "€ 4,50"
         },
         {
             "id": 6,
+            "type": "ordinary-pizza",
             "name": "Speck",
             "ingredientes": "Pomodoro, mozzarella, speck",
             "price": "€ 5,50"
         },
         {
             "id": 7,
+            "type": "ordinary-pizza",
             "name": "Crudo",
             "ingredientes": "Pomodoro, mozzarella, prosciutto crudo",
             "price": "€ 5,50"
         },
         {
             "id": 8,
+            "type": "ordinary-pizza",
             "name": "Prosciutto",
             "ingredientes": "Pomodoro, mozzarella, prosciutto cotto",
             "price": "€ 4,50"
         },
         {
             "id": 9,
+            "type": "ordinary-pizza",
             "name": "Funghi",
             "ingredientes": "Pomodoro, mozzarella, funghi",
             "price": "€ 4,50"
         },
         {
             "id": 10,
+            "type": "ordinary-pizza",
             "name": "Prosciutto e funghi",
             "ingredientes": "Pomodoro, mozzarella, prosciutto coto, funghi",
             "price": "€ 5,00"
         },
         {
             "id": 11,
+            "type": "ordinary-pizza",
             "name": "Capricciosa",
             "ingredientes": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi",
             "price": "€ 5,50"
         },
         {
             "id": 12,
+            "type": "ordinary-pizza",
             "name": "Quattro stagioni",
             "ingredientes": "Pomodoro, mozzarella, prosciutto cotto, fungi, carciofi, olive",
             "price": "€ 5,50"
         },
         {
             "id": 13,
+            "type": "ordinary-pizza",
             "name": "Wurstel",
             "ingredientes": "Pomodoro, mozzarella, wurstel",
             "price": "€ 4,50"
         },
         {
             "id": 14,
+            "type": "ordinary-pizza",
             "name": "Salsiccia",
             "ingredientes": "Pomodoro, mozarella, salsiccia",
             "price": "€ 5,00"
         },        
         {
             "id": 15,
+            "type": "ordinary-pizza",
             "name": "Carciofi",
             "ingredientes": "Pomodoro, mozzarella, carciofi",
             "price": "€ 5,00"
         },
         {
             "id": 16,
+            "type": "ordinary-pizza",
             "name": "Diavola",
             "ingredientes": "Pomodoro, mozzarella, salame piccante",
             "price": "€ 5,50"
         },
         {
             "id": 17,
+            "type": "ordinary-pizza",
             "name": "Pazza",
             "ingredientes": "Pomodoro, mozzarella, radicchio, scamorza, funghi, pancetta",
             "price": "€ 6,50"
         },
         {
             "id": 18,
+            "type": "ordinary-pizza",
             "name": "Bufalina",
             "ingredientes": "Pomodoro, mozzarella di bufala",
             "price": "€ 5,50"
         },
         {
             "id": 19,
+            "type": "ordinary-pizza",
             "name": "Gamberetti",
             "ingredientes": "Pomodoro, mozzarella, gamberetti",
             "price": "€ 5,50"
         },
         {
             "id": 20,
+            "type": "ordinary-pizza",
             "name": "Verdure grigliate",
             "ingredientes": "Pomodoro, mozzarella, peperoni, melanzane, zucchine",
             "price": "€ 5,50"
         },
         {
             "id": 21,
+            "type": "ordinary-pizza",
             "name": "Calamari",
             "ingredientes": "Pomodoro, mozzarella, calamari",
             "price": "€ 6,00"
         },
         {
             "id": 22,
+            "type": "ordinary-pizza",
             "name": "Porcini",
             "ingredientes": "Pomodoro, mozzarella, funghi porcini",
             "price": "€ 5,50"
         },
         {
             "id": 23,
+            "type": "ordinary-pizza",
             "name": "Crudo e panna",
             "ingredientes": "Pomodoro, mozzarella, prosciutto crudo, panna",
             "price": "€ 6,00"
         },
         {
             "id": 24,
+            "type": "ordinary-pizza",
             "name": "Tonno e cipolle",
             "ingredientes": "Pomodoro, mozzarella, tonno, cipolle",
             "price": "€ 5,50"
         },
         {
             "id": 25,
+            "type": "ordinary-pizza",
             "name": "Quattro formaggi",
             "ingredientes": "Pomodoro, mozzarella, gorgonzola, emmenthal, grana",
             "price": "€ 5,50"
         },
         {
             "id": 26,
+            "type": "ordinary-pizza",
             "name": "Tirolese",
             "ingredientes": "Pomodoro, mozzarella, funghi, speck",
             "price": "€ 6,00"
         },
         {
             "id": 27,
+            "type": "ordinary-pizza",
             "name": "Pizza della casa",
             "ingredientes": "Pomodoro, mozzarella, gamberetti, salmone, rucola",
             "price": "€ 7,00"
         },
         {
             "id": 28,
+            "type": "ordinary-pizza",
             "name": "Valtellina",
             "ingredientes": "Pomodoro, mozzarella, bresaola, rucola, grana",
             "price": "€ 6,00"
         },
         {
             "id": 29,
+            "type": "ordinary-pizza",
             "name": "Raggio di sole",
             "ingredientes": "Pomodoro, mozzarella, asparagi, grana, uovo",
             "price": "€ 5,50"
         },
         {
             "id": 30,
+            "type": "ordinary-pizza",
             "name": "Occhio di bue",
             "ingredientes": "Pomodoro, prosciutto cotto, grana, uovo",
             "price": "€ 5,50"
         },
         {
             "id": 31,
+            "type": "ordinary-pizza",
             "name": "Bomba",
             "ingredientes": "Pomodoro, mozzarella, gorgonzola, salame piccante, cipolle",
             "price": "€ 6,50"
         },
         {
             "id": 32,
+            "type": "ordinary-pizza",
             "name": "Saporita",
             "ingredientes": "Pomodoro, mozzarella, gorgonzola, salame piccante, origano",
             "price": "€ 6,00"
         },
         {
             "id": 33,
+            "type": "ordinary-pizza",
             "name": "Montanara",
             "ingredientes": "Pomodoro, mozzarella, funghi porcini, salsiccia",
             "price": "€ 6,00"
         },
         {
             "id": 34,
+            "type": "ordinary-pizza",
             "name": "Braccio di ferro",
             "ingredientes": "Podomoro, mozzarella, ricotta, spinaci",
             "price": "€ 5,50"
         },
         {
             "id": 35,
+            "type": "ordinary-pizza",
             "name": "Simpatica",
             "ingredientes": "Pomodoro, mozzarella, wurstel, patatine",
             "price": "€ 5,50"
         },
         {
             "id": 36,
+            "type": "ordinary-pizza",
             "name": "Turbo",
             "ingredientes": "Pomodoro, mozzarella, capricciosa, salame piccante, cipolle, olive",
             "price": "€ 6,50"
         },
         {
             "id": 37,
+            "type": "ordinary-pizza",
             "name": "Valdostana",
             "ingredientes": "Pomodoro, mozzarella, taleggio, prosciutto cotto",
             "price": "€ 6,50"
         },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        {
+            "id": 38,
+            "type": "ordinary-pizza",
+            "name": "Boscaiola",
+            "ingredientes": "Pomodoro, mozzarella, funghi, brie, speck",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 39,
+            "type": "ordinary-pizza",
+            "name": "Mangia e taci",
+            "ingredientes": "Pomodoro, mozzarella, funghi porcini, brie, speck",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 40,
+            "type": "ordinary-pizza",
+            "name": "Sorpresa",
+            "ingredientes": "Pomodoro, mozzarella, bufala, pomodorini, scamorza, speck",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 41,
+            "type": "ordinary-pizza",
+            "name": "Delicata",
+            "ingredientes": "Pomodoro, mozzarella, zucchine, gamberetti",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 42,
+            "type": "ordinary-pizza",
+            "name": "Mare e monti",
+            "ingredientes": "Pomodoro, mozzarella, funghi porcini, gamberetti",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 43,
+            "type": "ordinary-pizza",
+            "name": "Romagnola",
+            "ingredientes": "Pomodoro, mozzarella, bufala, prosciutto crudo",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 44,
+            "type": "ordinary-pizza",
+            "name": "Speck e brie",
+            "ingredientes": "Pomodoro, mozzarella, speck, brie",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 45,
+            "type": "ordinary-pizza",
+            "name": "Campagnola",
+            "ingredientes": "Pomodoro, mozzarella, pancetta, cipolle, grana",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 46,
+            "type": "ordinary-pizza",
+            "name": "Bergamasca",
+            "ingredientes": "Pomodoro, mozzarella, salsiccia, pomodorini, origano",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 47,
+            "type": "ordinary-pizza",
+            "name": "Frutti di mare",
+            "ingredientes": "Pomodoro, mozzarella, frutti di mare",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 48,
+            "type": "ordinary-pizza",
+            "name": "Salmone",
+            "ingredientes": "Pomodoro, mozzarella, salmone",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 49,
+            "type": "ordinary-pizza",
+            "name": "360",
+            "ingredientes": "Pomodoro, mozzarella, scamorza, porcini, speck",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 50,
+            "type": "ordinary-pizza",
+            "name": "Italia",
+            "ingredientes": "Pomodoro, mozzarella, bresaola, bufala, rucola",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 51,
+            "type": "ordinary-pizza",
+            "name": "Fumo",
+            "ingredientes": "Pomodoro, mozzarella, grana, speck, scamorza",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 52,
+            "type": "ordinary-pizza",
+            "name": "Fantasia",
+            "ingredientes": "Pomodoro, mozzarella, piselli, pancetta, grana, cipolle",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 53,
+            "type": "ordinary-pizza",
+            "name": "Esplosiva",
+            "ingredientes": "Pomodoro, mozzarella, peperoni, salame piccante, cipolle, acciughe, capperi, grana",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 54,
+            "type": "ordinary-pizza",
+            "name": "Parmigiana",
+            "ingredientes": "Pomodoro, mozzarella, melanzane, prosciutto, grana",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 55,
+            "type": "ordinary-pizza",
+            "name": "Contadina",
+            "ingredientes": "Pomodoro, mozzarella, pancetta, taleggio, pomodorini, grana",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 56,
+            "type": "ordinary-pizza",
+            "name": "Tamer",
+            "ingredientes": "Pomodoro, mozzarella, pomodorini, brie, speck",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 57,
+            "type": "ordinary-pizza",
+            "name": "Aly",
+            "ingredientes": "Pomodoro, mozzarella, scamorza, salame piccante, carciofi",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 58,
+            "type": "ordinary-pizza",
+            "name": "Trentina",
+            "ingredientes": "Pomodoro, mozzarella, porcini, gorgonzola, speck, grana",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 59,
+            "type": "ordinary-pizza",
+            "name": "Fuoco",
+            "ingredientes": "Pomodoro, mozzarella, salame piccante, acciughe, cipolle",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 60,
+            "type": "ordinary-pizza",
+            "name": "Brescia",
+            "ingredientes": "Pomodoro, mozzarella, salame dolce, gorgonzola",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 61,
+            "type": "ordinary-pizza",
+            "name": "Peperonata",
+            "ingredientes": "Pomodoro, mozzarella, peperoni, salsiccia, olive",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 62,
+            "type": "special-pizza",
+            "name": "Salsiccia e friarielli",
+            "ingredientes": "Mozzarella, salsiccia, friarielli",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 63,
+            "type": "special-pizza",
+            "name": "Porcini special",
+            "ingredientes": "Mozzarella, crema di porcini, funghi e porcini",
+            "price": "€ 7,00"
+        },
+        {
+            "id": 64,
+            "type": "special-pizza",
+            "name": "Bella brescia",
+            "ingredientes": "Pomodoro, mozzarella, asperagi, porcini, grana, zola",
+            "price": "€ 7,00"
+        },
+        {
+            "id": 65,
+            "type": "special-pizza",
+            "name": "Toscana",
+            "ingredientes": "Pomodoro, mozzarella, tonno, olive, scamorza, pomodorini",
+            "price": "€ 7,00"
+        },
+        {
+            "id": 66,
+            "type": "special-pizza",
+            "name": "La leggera",
+            "ingredientes": "Mozzarella, zucchine, pomodorini, grana a scaglie",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 67,
+            "type": "special-pizza",
+            "name": "Buongustaio",
+            "ingredientes": "Pomodoro, mozzarella, cipolla, salame piccante, peperoni, grana",
+            "price": "€ 7,00"
+        },
+        {
+            "id": 68,
+            "type": "special-pizza",
+            "name": "Carciofata",
+            "ingredientes": "Mozzarella, crema di carciofi, carciofi",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 69,
+            "type": "special-pizza",
+            "name": "Radicchia",
+            "ingredientes": "Mozzarella, crema di carciofo, salsiccia, stracchino",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 70,
+            "type": "red-pizza",
+            "name": "Panna e salmone",
+            "ingredientes": "Pomodoro, panna, salmone",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 71,
+            "type": "red-pizza",
+            "name": "Mediterranea",
+            "ingredientes": "Pomodoro, bufala, pomodorini, rucola",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 72,
+            "type": "red-pizza",
+            "name": "Siciliana",
+            "ingredientes": "Pomodoro, acciughe, origano, capperi, olive",
+            "price": "€ 5,00"
+        },
+        {
+            "id": 73,
+            "type": "special-pizza",
+            "name": "Mondo mio",
+            "ingredientes": "Pomodoro, scamorza, funghi porcini, speck",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 74,
+            "type": "white-pizza",
+            "name": "Caprese",
+            "ingredientes": "Mozzarella, pomodorini, origano",
+            "price": "€ 5,00"
+        },
+        {
+            "id": 75,
+            "type": "white-pizza",
+            "name": "Mondragone",
+            "ingredientes": "Mozzarella, pomodorini, bufala, rucola",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 76,
+            "type": "white-pizza",
+            "name": "Estate",
+            "ingredientes": "Mozzarella, tonno, pomodorini, philadelphia",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 77,
+            "type": "white-pizza",
+            "name": "Primavera",
+            "ingredientes": "Mozzarella, pomodorini, bufala, basilico",
+            "price": "€ 6,00"
+        },
+        {
+            "id": 78,
+            "type": "white-pizza",
+            "name": "Titti",
+            "ingredientes": "Mozzarella, porcini, salame piccante, asparagi, gorgonzola",
+            "price": "€ 6,50"
+        },
+        {
+            "id": 79,
+            "type": "white-pizza",
+            "name": "Noci e gorgonzola",
+            "ingredientes": "Mozzarella, noci, gorgonzola, grana",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 80,
+            "type": "white-pizza",
+            "name": "Mele e gorgonzola",
+            "ingredientes": "mozzarella, mele, gorgonzola",
+            "price": "€ 5,50"
+        },
+        {
+            "id": 81,
+            "type": "panini-piadine",
+            "name": "Los Angeles",
+            "ingredientes": "Mozzarella, prosciutto crudo, maionese",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 82,
+            "type": "panini-piadine",
+            "name": "Amarillo",
+            "ingredientes": "Mozzarella, prosciutto cotto, pomodoro, insalata",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 83,
+            "type": "panini-piadine",
+            "name": "Sant'Andrea",
+            "ingredientes": "Fontina, prosciutto crudo, funghim pomodoro, insalata, salsa rosa",
+            "price": "€ 4,00"
+        },{
+            "id": 84,
+            "type": "panini-piadine",
+            "name": "Milwaukee",
+            "ingredientes": "Brie, speck, maionese",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 85,
+            "type": "panini-piadine",
+            "name": "Utah",
+            "ingredientes": "Fontina, prosciutto cotto, grana, origano, insalata",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 86,
+            "type": "panini-piadine",
+            "name": "Oklahoma",
+            "ingredientes": "Fontina, prosciutto crudo, salsa tonnata, insalata, pomodoro",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 87,
+            "type": "panini-piadine",
+            "name": "Amhed",
+            "ingredientes": "Brie, trevisana, tonno, pomodoro, maionese",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 88,
+            "type": "panini-piadine",
+            "name": "Daitona",
+            "ingredientes": "Fontina, bresaola, grana",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 89,
+            "type": "panini-piadine",
+            "name": "San Diego",
+            "ingredientes": "Taleggio, pancetta, pomodoro",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 90,
+            "type": "panini-piadine",
+            "name": "Jessy",
+            "ingredientes": "Bufala, pancetta, grana, salame piccante, olive",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 91,
+            "type": "panini-piadine",
+            "name": "Texas",
+            "ingredientes": "Lattuga, tonno, prosciutto crudo, olive, salsa tonnata",
+            "price": "€ 4,00"
+        },
+        {
+            "id": 92,
+            "type": "bruschetta",
+            "name": "Route 66",
+            "ingredientes": "Pomodoro, mozzarella, origano",
+            "price": "3,00"
+        },
+        {
+            "id": 93,
+            "type": "bruschetta",
+            "name": "Boston",
+            "ingredientes": "Pomodoro, mozzarella, olive, funghi",
+            "price": "3,00"
+        },
+        {
+            "id": 94,
+            "type": "bruschetta",
+            "name": "Flagstaff",
+            "ingredientes": "Pomodoro, mozzarella, prosciutto cotto",
+            "price": "3,00"
+        },
+        {
+            "id": 94,
+            "type": "bruschetta",
+            "name": "Miami",
+            "ingredientes": "Pomodoro, mozzarella, brie, fontina, taleggio",
+            "price": "3,00"
+        },
+        {
+            "id": 95,
+            "type": "bruschetta",
+            "name": "California",
+            "ingredientes": "Pomodoro, mozzarella, grana, speck, funghi",
+            "price": "3,00"
+        },
+        {
+            "id": 96,
+            "type": "bruschetta",
+            "name": "Kfc",
+            "ingredientes": "Pomodoro, mozzarella, salsiccia, origano",
+            "price": "3,00"
+        }
+
+
+
+
     ]
 }
