@@ -1,1 +1,10 @@
-<p>menu works!</p>
+<h2>Menu:</h2>
+<ul>
+    @for (item of menu; track item.id){
+        <li>
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.ingredientes }}</p>
+            <p>{{ item.price }}</p>
+        </li>
+    }
+</ul>
