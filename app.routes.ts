@@ -7,7 +7,7 @@ import { ContactsComponent } from './src/app/contacts/contacts.component';
 
 export const routes = [] = [
     {
-        path: '/home',
+        path: '',
         component: HomeComponent
     },
     {
