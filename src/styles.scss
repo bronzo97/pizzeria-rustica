@@ -8,11 +8,11 @@
 $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
 
 
 
 /* You can add global styles to this file, and also import other style files */
-
 
 @tailwind base;
 @tailwind components;
