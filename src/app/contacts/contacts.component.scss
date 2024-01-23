@@ -1,3 +1,19 @@
 .map {
     border-radius: 20%;
 }
+
+.my-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 60%;
+    background-color: #B82925;
+    z-index: -1;
+    opacity: 80%;
+
+}
+
+.my-card {
+    color: #ef871e;
+}
