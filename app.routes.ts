@@ -11,8 +11,8 @@ export const routes = [] = [
         component: HomeComponent
     },
     {
-        path: '/menu',
-        component: MenuComponent
+        path: '/assets/menu.pdf',
+        redirectTo: './assets/menu.pdf'
     },
     {
         path: '/contacts',
