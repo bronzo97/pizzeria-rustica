@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './carousel.component.scss'
 })
 export class Carousel {
-  imgArray: Array<number | undefined> = [-2, -1, 0, 1, 2];
+  imgArray: Array<string | undefined> = ["pizza1.jpeg", "pizza2.jpeg","pizza3.jpeg","pizza4.jpeg", "pizza5.jpeg"];
   counter = this.imgArray[2];
-  popped?: number;
-  shifted? : number;
-  storePopped?: number;
+  popped?: string;
+  shifted? : string;
+  storePopped?: string;
   
   previous() {
     this.shifted = this.imgArray.shift();
