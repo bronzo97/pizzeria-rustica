@@ -1,3 +1,39 @@
+.main-slider {
+    display: flex;
+}
+
 .item {
+    background-color: burlywood;
+    // display: inline-block;
+}
+
+.active {
+    transform: translateX(calc(100% + 2rem));
+    transition-duration: 500ms;
+}
+
+.active:last-child {
+    transform: translateX(calc(-500% + -10rem));
+    transition-duration: 500ms;
+}
+
+.dragging {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel {
+    overflow: auto;
+    grid-auto-columns: calc((100% / 3) - 12px);
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 50%;
     background-color: burlywood;
 }
