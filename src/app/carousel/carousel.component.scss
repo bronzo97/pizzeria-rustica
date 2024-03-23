@@ -23,11 +23,21 @@
 }
 
 .carousel {
-    overflow: auto;
+    overflow: hidden;
     grid-auto-columns: calc((100% / 3) - 12px);
+    scroll-behavior: smooth;
 }
 
+.dragging {
+    scroll-behavior: auto;
+}
+
+// .smooth-movement {
+//     scroll-behavior: smooth;
+// }
+
 .arrow {
+    z-index: 1;
     width: 30px;
     height: 30px;
     display: flex;
@@ -36,4 +46,25 @@
     font-size: 2rem;
     border-radius: 50%;
     background-color: burlywood;
+}
+
+.arrow:hover {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper .arrow:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.wrapper .arrow:last-child {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
 }

@@ -1,17 +1,17 @@
 <div class="container mx-auto">
     <div class="wrapper">
-        <div class="arrow"><i class="fa-solid fa-angle-left"></i></div>
-        <ul #carousel class="carousel grid grid-flow-col gap-4">
+        <div class="arrow p-5" (click)="left()" ><i class="fa-solid fa-angle-left"></i></div>
+        <ul #carousel class="carousel grid grid-flow-col gap-4" [class.dragging]="dragging" [class.smooth-movement]="smoothMovement">
 
             @for (img of imgArray; track img) {
                 <li>
                     <div class="img-container">
-                        <img src="../../assets/img/{{ img }}" alt="Pizza picture" draggable="false">
+                        <img #img src="../../assets/img/{{ img }}" alt="Pizza picture" draggable="false">
                     </div>
                 </li>
             }
         </ul>
-        <div class="arrow"><i class="fa-solid fa-angle-right"></i></div>
+        <div class="arrow p-5" (click)="right()"><i class="fa-solid fa-angle-right"></i></div>
     </div>
 
 
