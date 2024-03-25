@@ -4,7 +4,7 @@ import { Navbar } from './navbar/navbar.component';
 import { Footer } from './footer/footer.component';
 import { RouterOutlet } from '@angular/router';
 import { RouterLink } from '@angular/router';
-import { initFlowbite } from 'flowbite';
+
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,5 @@ import { initFlowbite } from 'flowbite';
 export class AppComponent {
   title = 'pizzeria-rustica';
 
-  ngOnInit(): void {
-    initFlowbite();
-  }
+
 }
