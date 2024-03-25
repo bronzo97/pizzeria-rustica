@@ -13,15 +13,13 @@ export class Carousel {
   imgArray: Array<string | undefined> = ["pizza1.jpeg", "pizza2.jpeg","pizza3.jpeg","pizza4.jpeg", "pizza5.jpeg"];
   dragging:string = '';
   smoothMovement:string = 'smooth-movement';
+  // cardPerView = Math.round(this.carousel.nativeElement.offsetWidth / this.img.nativeElement.offsetWidth);
   
-  @ViewChild('img') img!: ElementRef;
-  @ViewChild('card') card!: ElementRef;
+
 
   @ViewChild('carousel') carousel!: ElementRef;
   private isDragging = false;
   private startX = 0;
-  cardPerView = Math.round(this.carousel.nativeElement.offsetWidth / this.img.nativeElement.offsetWidth);
-  
 
   @HostListener('mousedown', ['$event'])
   onMouseDown(event: MouseEvent) {
@@ -49,6 +47,9 @@ export class Carousel {
     this.dragging = 'dragging';
   }
 
+  @ViewChild('img') img!: ElementRef;
+
+
   right() {
     this.carousel.nativeElement.scrollLeft += this.img.nativeElement.offsetWidth;
     this.dragging = '';
@@ -63,4 +64,4 @@ export class Carousel {
     this.smoothMovement = 'smooth-movement';
     console.log('left');
   }
-}
+} 

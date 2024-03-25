@@ -4,7 +4,7 @@
         <ul #carousel class="carousel grid grid-flow-col gap-4" [class.dragging]="dragging" [class.smooth-movement]="smoothMovement">
 
             @for (img of imgArray; track img) {
-                <li #card class="card">
+                <li class="card">
                     <div class="img-container">
                         <img #img src="../../assets/img/{{ img }}" alt="Pizza picture" draggable="false">
                     </div>
