@@ -4,7 +4,7 @@
         <ul #carousel class="carousel grid grid-flow-col gap-4" [class.dragging]="dragging" [class.smooth-movement]="smoothMovement">
 
             @for (img of imgArray; track img) {
-                <li>
+                <li #card class="card">
                     <div class="img-container">
                         <img #img src="../../assets/img/{{ img }}" alt="Pizza picture" draggable="false">
                     </div>
@@ -13,66 +13,4 @@
         </ul>
         <div class="arrow p-5" (click)="right()"><i class="fa-solid fa-angle-right"></i></div>
     </div>
-
-
-
-
-    <!-- <div class="slider text-center">
-        <div class="main-slider" (mousemove)="dragging($event)">
-            <div class="item grid-rows-1" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[0] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[1] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[2] }}" alt="Pizza immage">
-                    
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[3] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[4] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[4] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[4] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[4] }}" alt="Pizza immage">
-                </span>
-            </div>
-            <div class="item" [class.active]="active">
-                <span>
-                    <img src="../../assets/img/{{ this.imgArray[4] }}" alt="Pizza immage">
-                </span>
-            </div>
-        </div>
-        <div class="grid grid-cols-2">
-            <div class="grid-rows-1" (click)="previous()">
-                <i class="fa-solid fa-chevron-left"></i>
-            </div>
-            <div class="grid-rows-1" (click)="next()">
-                <i class="fa-solid fa-chevron-right"></i>
-            </div>
-        </div>
-    </div> -->
 </div>

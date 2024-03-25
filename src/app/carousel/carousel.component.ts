@@ -14,11 +14,14 @@ export class Carousel {
   dragging:string = '';
   smoothMovement:string = 'smooth-movement';
   
-
+  @ViewChild('img') img!: ElementRef;
+  @ViewChild('card') card!: ElementRef;
 
   @ViewChild('carousel') carousel!: ElementRef;
   private isDragging = false;
   private startX = 0;
+  cardPerView = Math.round(this.carousel.nativeElement.offsetWidth / this.img.nativeElement.offsetWidth);
+  
 
   @HostListener('mousedown', ['$event'])
   onMouseDown(event: MouseEvent) {
@@ -43,10 +46,8 @@ export class Carousel {
     const deltaX = event.clientX - this.startX;
     this.carousel.nativeElement.scrollLeft -= deltaX;
     this.startX = event.clientX;
+    this.dragging = 'dragging';
   }
-
-  @ViewChild('img') img!: ElementRef;
-
 
   right() {
     this.carousel.nativeElement.scrollLeft += this.img.nativeElement.offsetWidth;
@@ -63,64 +64,3 @@ export class Carousel {
     console.log('left');
   }
 }
-
-
-
-
-
-
-
-
-// import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
-
-// @Component({
-
-// 
-// export class Carousel {
-//   @ViewChild('carousel') carousel!: ElementRef;
-//   counter = this.imgArray[2];
-//   popped?: string;
-//   shifted?: string;
-//   storePopped?: string;
-//   active: string = '';
-
-//   isDragging = false;
-//   classList: any;
-//   draggingClass = '';
-
-//   dragging(event: MouseEvent) {
-//     // if (!this.isDragging) {
-//     //   return
-//     // }
-//     console.log(event.pageX);
-//     this.carousel.nativeElement. scrollLeft += event.pageX;
-//   }
-
-//   dragStart() {
-//     this.isDragging = true;
-//     this.draggingClass = 'dragging';
-//   }
-
-//   dragStop() {
-//     this.draggingClass = '';
-//     this.isDragging = false;
-//   }
-
-//   // previous() {
-//   //   this.shifted = this.imgArray.shift();
-//   //   this.storePopped = this.shifted;
-//   //   console.log(this.storePopped);
-//   //   this.imgArray.push(this.storePopped);
-    
-//   // };
-
-//   // next() {
-//   //   this.popped = this.imgArray.pop();
-//   //   this.storePopped = this.popped;
-//   //   console.log(this.storePopped);
-//   //   this.imgArray.unshift(this.storePopped);
-//   //   this.active = "active";
-//   //   // this.active = "";
-//   // };
-
-// }

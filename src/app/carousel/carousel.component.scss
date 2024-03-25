@@ -23,18 +23,25 @@
 }
 
 .carousel {
-    overflow: hidden;
     grid-auto-columns: calc((100% / 3) - 12px);
     scroll-behavior: smooth;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
 }
 
 .dragging {
     scroll-behavior: auto;
 }
 
-// .smooth-movement {
-//     scroll-behavior: smooth;
-// }
+.card {
+    
+}
+
+.smooth-movement {
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
 
 .arrow {
     z-index: 1;
