@@ -1,25 +1,7 @@
-.main-slider {
-    display: flex;
-}
-
-.item {
-    background-color: burlywood;
-    // display: inline-block;
-}
-
-.active {
-    transform: translateX(calc(100% + 2rem));
-    transition-duration: 500ms;
-}
-
-.active:last-child {
-    transform: translateX(calc(-500% + -10rem));
-    transition-duration: 500ms;
-}
-
 .dragging {
     cursor: grab;
     user-select: none;
+    scroll-behavior: auto;
 }
 
 .carousel {
@@ -30,17 +12,12 @@
     scrollbar-width: none;
 }
 
-.dragging {
-    scroll-behavior: auto;
-}
-
-.card {
-    
-}
-
 .smooth-movement {
     scroll-snap-align: start;
     scroll-behavior: smooth;
+}
+.wrapper {
+    position: relative;
 }
 
 .arrow {
@@ -57,10 +34,6 @@
 
 .arrow:hover {
     scroll-behavior: smooth;
-}
-
-.wrapper {
-    position: relative;
 }
 
 .wrapper .arrow:first-child {
