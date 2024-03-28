@@ -1,0 +1,27 @@
+.location {
+    background-color: #ef871e;
+}
+
+.menu {
+    background-color: #fffaee;
+}
+
+.menu-icon {
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+
+.menu-icon img {
+    height: 100%;
+}
+.top-right-corner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    background-color: #C65350;
+    border-radius: 50%;
+}
