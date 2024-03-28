@@ -6,7 +6,6 @@
     right: 0;
     left: 0;
     z-index: 2; // z-index 2 because the arrow button in the carousel already have 1.
-    
 }
 
 .logo {
@@ -14,25 +13,18 @@
 }
 
 .button {
-    box-shadow: inset 0 1px 0 0 #ffffff;
-    background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-    border-radius: 6px;
-    border: 1px solid #dcdcdc;
-    display: inline-block;
+    border: 1px solid #ef871e;
     cursor: pointer;
-    color: #666666;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 6px 24px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #ffffff;
-    outline: 0;
 }
+
+.list {
+    border: 1px solid #ef871e;
+}
+
 .activebutton {
     box-shadow: inset 0 1px 0 0 #dcecfb;
-    background: #bddbfa linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
-    border: 1px solid #84bbf3;
+    background: #ef871e;
+    border: 1px solid #ef871e;
     color: #ffffff;
-    text-shadow: 0 1px 0 #528ecc;
+    text-shadow: 0 1px 0 #ef871e;
 }
